@@ -341,7 +341,7 @@ const TOTAL_STEPS = QUESTIONS.length + 1; // +1 for intro
 const STEP_CHECKING = "checking";
 const STEP_BLOCKED = "blocked";
 const STEP_CHECK_ERROR = "check_error";
-const TIME_LIMIT_SECONDS = 8 * 60; // 3-minute quiz
+const TIME_LIMIT_SECONDS = 8 * 60; // 8-minute quiz
 let step = 0; // 0 = intro, "checking", "blocked", "check_error", 1..15 = questions, 16 = results
 let student = { name: "", idnum: "", section: "" };
 let answers = {}; // qid -> optionId
